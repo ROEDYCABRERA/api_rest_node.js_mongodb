@@ -1,6 +1,7 @@
 # Awesome Project Build with TypeORM
 
 Steps to run this project:
+API_NODE JS MYSQL
 
 1. Run `npm i` command
 2. Setup database settings inside `ormconfig.json` file
