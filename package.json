@@ -27,6 +27,9 @@
    "scripts": {
       "typeorm": "typeorm-ts-node-commonjs",
       "tsc": "tsc",
+      "start": "set debug=* && ts-node-dev --respawn --transpile-only ./src/index.ts",
+      "build": "tsc --build",
+      "clean": "tsc --build --clean",
       "dev": "set debug=* && ts-node-dev --respawn --transpile-only ./src/index.ts"
    }
 }
