@@ -5,11 +5,11 @@ import { checkRole } from "../middlewares/roles";
 const router= Router();
 
 // Get all users
-router.get('/',[checkJwt,checkRole(['admin'])],UserController.getAll);
+router.get('/',UserController.getAll);
 // Get one user
 router.get('/:id',[checkJwt,checkRole(['admin'])],UserController.getById);
 // Create a new User
-router.post('/',[checkJwt,checkRole(['admin'])],UserController.newUser);
+router.post('/',UserController.newUser);
 // Edit users
 router.patch('/:id',[checkJwt,checkRole(['admin'])],UserController.editUser);
 // Delete  users
