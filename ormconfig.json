@@ -1,9 +1,9 @@
 {
    "type": "mysql",
-   "host": "127.0.0.1",
-   "port": 3306,
-   "username": "root",
-   "password": "123456789",
+   "host": "toolssales-do-user-12105549-0.b.db.ondigitalocean.com",
+   "port": 25060,
+   "username": "doadmin",
+   "password": "AVNS_xAXjpM--wwA8C7qaMNG",
    "database": "api_node_js",
    "synchronize": true,
    "logging":false,
