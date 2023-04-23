@@ -21,4 +21,5 @@
       "migrationsDir": "database/migration",
       "subscribersDir": "src/subscriber"
    }
+   
 }
